@@ -30,7 +30,7 @@ a{color:inherit;text-decoration:none}
 }
 
 .login-html{
-    width:100%;
+    width: 300px; /*100%*/
     height:170%; /*100*/
     position:absolute;
     padding:90px 70px 50px 70px;/*90*/
