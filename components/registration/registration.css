@@ -30,7 +30,7 @@ a{color:inherit;text-decoration:none}
 }
 
 .login-html{
-    width: 100px; /*100%, длина */
+    width: 100%; /*100%, длина */
     height: 100%; /*100*/
     position:absolute;
     padding:90px 70px 50px 70px;/*90*/
