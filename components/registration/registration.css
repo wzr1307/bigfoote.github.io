@@ -16,10 +16,10 @@ a{color:inherit;text-decoration:none}
 .login-wrap{
     width:100%;
     margin:auto;
-    margin-top: 120px; /*высота. число выше, блок ниже*/
+  /*  margin-top: 120px; высота. число выше, блок ниже*/
     border-radius: 5px;/*скругленность углов*/
     max-width:525px;
-	/*min-height:670px;*/
+    min-height:670px;
     position:relative;
     background:
         linear-gradient(
