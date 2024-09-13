@@ -1,10 +1,5 @@
-.game-container {
-    height: 100vh; /* Занимает всю высоту экрана */
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-image: url('menu.jpg'); /* Замените на путь к вашей картинке */
-    background-size: cover;
-    background-position: center;
+body{
+    margin:0;
+    color:#6a6f8c;
+    background-image: url('menu.jpg');
 }
