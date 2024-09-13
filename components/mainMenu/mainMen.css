@@ -1,6 +1,6 @@
 body {
     /*background-color: #f0f0f0;  Светло-серый фон */
-    background-image: url('menu.png'); /* Замени 'your_image.jpg' на путь к твоему изображению */
+    background-image: url('menu.jpg'); /* Замени 'your_image.jpg' на путь к твоему изображению */
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
