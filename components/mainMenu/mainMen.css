@@ -1,8 +1,10 @@
-body {
-    /*background-color: #f0f0f0;  Светло-серый фон */
-    background-image: url('menu.jpg'); /* Замени 'your_image.jpg' на путь к твоему изображению */
+.game-container {
+    height: 100vh; /* Занимает всю высоту экрана */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url('menu.jpg'); /* Замените на путь к вашей картинке */
     background-size: cover;
-    background-repeat: no-repeat;
     background-position: center;
-    font-family: Arial, sans-serif;
 }
