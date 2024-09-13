@@ -1,8 +1,8 @@
 body {
     margin: 0;
-    color: #6a6f8c;
+    height: 100vh; /* Занимает всю высоту viewport */
     background-image: url('menu.jpg');
-    background-size: cover; /* Растягивает изображение, чтобы покрыть всю область */
-    background-repeat: no-repeat; /* Отключает повторение фона */
-    background-position: center; /* Центрирует фон */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
