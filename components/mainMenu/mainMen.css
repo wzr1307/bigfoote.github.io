@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    background-image: url('menu.png'); /* components/mainMenu/ Замените 'your_image.jpg' на путь к вашей картинке */
+    background-image: url('components/mainMenu/menu.png'); /*  Замените 'your_image.jpg' на путь к вашей картинке */
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
