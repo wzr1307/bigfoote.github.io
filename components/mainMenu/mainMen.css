@@ -1,9 +1,8 @@
 body {
-    margin: 0;
-    background-image: url('components/mainMenu/menu.png'); /*  Замените 'your_image.jpg' на путь к вашей картинке */
+    /*background-color: #f0f0f0;  Светло-серый фон */
+    background-image: url('menu.png'); /* Замени 'your_image.jpg' на путь к твоему изображению */
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     font-family: Arial, sans-serif;
- /*   color: #fff; Цвет текста, если хотите светлый текст на темной картинке */
 }
