@@ -2,11 +2,31 @@
 <html>
 <head>
     <title>Карта Дании</title>
-    <script src="https://d3js.org/d3.v4.min.js"></script>
-    <script src="https://unpkg.com/topojson-client@3"></script>
+    <style>
+        svg {
+            background-color: lightgray;
+        }
+        path {
+            fill: steelblue;
+            stroke: #fff;
+            stroke-width: 1px;
+        }
+    </style>
 </head>
 <body>
-    <svg id="map"></svg>
-    <script src="gameMap.js"></script>
+    <svg width="960" height="500"></svg>
+
+    <script>
+        d3.json("AUT_adm1.json").then(function(data) {
+            const svg = d3.select("svg");
+
+            const austria = topojson.feature(data, data.objects.AUT_adm1-1);
+
+            svg.append("path")
+                .datum(austria)
+                .attr("fill", "lightgray")
+                .attr("d", d3.geoPath());
+        });
+    </script>
 </body>
 </html>
